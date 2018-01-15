@@ -1,13 +1,13 @@
 # Poradnik
 
-[x] Utworzyć i dodać treść do README.md.
-[ ] Aplikacja powinien się składać z minimum 5 plików kodu źródłowego.
-[ ] Każdy z członków zespołu powinien wykonać minimum 7 commitów.
-[ ] Każdą funkcjonalność rozwijać w osobnej gałęzi,
-[ ] Przeprowadzić minimum 5 pull requestów (każdy członek zespołu minimum 1).
-[ ] Doprowadzić do minimum 3 konfliktów i rozwiązać je.
-[ ] Wykonać operację rebase minimum 1 raz.
-[ ] Wszystkie operacje wykonywać z wiersza poleceń.
+- [x] Utworzyć i dodać treść do README.md.
+- [ ] Aplikacja powinien się składać z minimum 5 plików kodu źródłowego.
+- [ ] Każdy z członków zespołu powinien wykonać minimum 7 commitów.
+- [ ] Każdą funkcjonalność rozwijać w osobnej gałęzi,
+- [ ] Przeprowadzić minimum 5 pull requestów (każdy członek zespołu minimum 1).
+- [ ] Doprowadzić do minimum 3 konfliktów i rozwiązać je.
+- [ ] Wykonać operację rebase minimum 1 raz.
+- [ ] Wszystkie operacje wykonywać z wiersza poleceń.
 
 git - [DOWNLOAD](https://git-scm.com/download/win).
 
