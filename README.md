@@ -14,7 +14,7 @@
 - [ ] Ada - ?
 - [x] Kuba - Quick sort
 - [ ] Patryk - ?
-- [ ] Łukasz - ?
+- [x] Łukasz - Bubble sort
 
 ### Wstępna konfiguracja
 ```
