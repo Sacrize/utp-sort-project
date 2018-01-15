@@ -1,4 +1,4 @@
-# Poradnik
+### Zadanie
 
 - [x] Utworzyć i dodać treść do README.md.
 - [ ] Aplikacja powinien się składać z minimum 5 plików kodu źródłowego.
@@ -9,7 +9,12 @@
 - [ ] Wykonać operację rebase minimum 1 raz.
 - [ ] Wszystkie operacje wykonywać z wiersza poleceń.
 
-git - [DOWNLOAD](https://git-scm.com/download/win).
+### Podział zadań
+
+- [ ] Ada - ?
+- [x] Kuba - Quick sort
+- [ ] Patryk - ?
+- [ ] Łukasz - ?
 
 ### Wstępna konfiguracja
 ```
@@ -39,7 +44,7 @@ git - [DOWNLOAD](https://git-scm.com/download/win).
 
 ```
 // gdy robimy sobie przerwe od pisania to w konsoli
-> git add .
+> git add -A
 
 // w stringu wpisujemy co zrobilismy do tej pory od poprzedniego commita
 > git commit -m "zrobiłem/am to i to"
