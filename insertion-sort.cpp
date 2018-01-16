@@ -9,7 +9,7 @@ int insertionSort(int tab[], int n) { //tab[] to sortowana lista, n to jej dlugo
 	}
 	for (int i = 1; i < n; i++) {
 		int temp = tab[i];
-		for (int k = i; k > 0 && tab[k - 1] > temp; k--) {
+		for (int k = i; k > 0 && tab[k - 1] > temp; k--) { //zamienia zmienne tak dlugo az beda posortowane
 			tab[k] = tab[k - 1];
 			tab[k - 1] = temp;
 		}
