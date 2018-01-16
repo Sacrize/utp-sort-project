@@ -14,4 +14,6 @@ int insertionSort(int tab[], int n) {
 			tab[k - 1] = temp;
 		}
 	}
-	return 0;
+return 0;
+}
+	
