@@ -11,9 +11,9 @@
 
 ### Podział zadań
 
-- [ ] Ada - ?
+- [x] Ada - Selection sort
 - [x] Kuba - Quick sort
-- [ ] Patryk - ?
+- [x] Patryk - Insertion sort
 - [x] Łukasz - Bubble sort
 
 ### Wstępna konfiguracja
