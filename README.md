@@ -11,10 +11,10 @@
 
 ### Podział zadań
 
-- [x] Ada - Selection sort
+- [ ] Ada - Selection sort
 - [x] Kuba - Quick sort
 - [x] Patryk - Insertion sort
-- [x] Łukasz - Bubble sort
+- [ ] Łukasz - Bubble sort
 
 ### Wstępna konfiguracja
 ```
