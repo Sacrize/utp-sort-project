@@ -3,6 +3,35 @@
 using namespace std;
 void selectionSortMin(int t[], int t_s);
 void selectionSortMax(int t[], int t_s);
+void selectionSort(int t[], int t_s);
+
+/*Wybor przez uzytkownika
+kolejnosci sortowania*/
+
+void selectionSort(int t[], int t_s)
+{
+	int a; //zmienna wyboru
+	
+	cout << "Wybierz czy chesz posortowac liczby malejaco czy rosnaco.\n\t-jesli od najmniejszej do najwiekszej, wybierz 1\n\t-jesli od najwiekszej do najmniejszej, wybierz 2\n";
+	cin >> a;
+	if (a = 1 || 2)
+	{
+		if (a = 1) {//uzyt wybral selectionsortMin
+			selectionSortMin(t, t_s);
+		}
+		else if (a = 2)//uzyt wybral selectionSortMax
+		{
+			selectionSortMax(t, t_s);
+		}
+	}
+		else//zostaly wprowadzone bledne znaki
+		{
+			cout << "Wprowadziles bledny znak" << endl;
+		}
+
+	
+	return;
+}
 
 /*Sortowanie
 najmniejszy-najwiekszy elm.*/
