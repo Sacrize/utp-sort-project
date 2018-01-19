@@ -81,12 +81,12 @@ int selectionSortMin(int t[], int t_s)
 /*Sortowanie 
 najwiekszy-najmniejszy elem.*/
 
-int selectionSortMax(int t[], int t_s) //analogiczne nie selectionSortMin, zamiast zmiennej min jest max i zmiana linijki 21
+int selectionSortMax(int t[], int t_s) //analogiczne do selectionSortMin
 {
 	int max;
 	for (int i = 0; i < (t_s - 1); i++)
 	{
-		max = i;
+		max = i; //zamiast min, zmienna max
 		for (int j = i + 1; j < t_s; j++)
 		{
 			if (t[j] > t[max])//jesli elem. bedzie wiekszy od akt. max elem.- zamieniamy je
