@@ -1,8 +1,13 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+void selectionSortMin(int t[], int t_s);
+void selectionSortMax(int t[], int t_s);
 
-void selectionSort(int t[], int t_s)
+/*Sortowanie
+najmniejszy-najwiekszy elm.*/
+
+void selectionSortMin(int t[], int t_s)
 {
 	/*Szukanie
 	najmniejszego
@@ -28,4 +33,26 @@ void selectionSort(int t[], int t_s)
 		}
 	}
 	return;
+}
+/*Sortowanie 
+najwiekszy-najmniejszy elem.*/
+
+void selectionSortMax(int t[], int t_s) //analogiczne nie selectionSortMin, zamiast zmiennej min jest max i zmiana linijki 21
+{
+	int max;
+	for (int i = 0; i < (t_s - 1); i++)
+	{
+		max = i;
+		for (int j = i + 1; j < t_s; j++)
+		{
+			if (t[j] > t[max])//jesli elem. bedzie wiekszy od akt. max elem.- zamieniamy je
+				max = j;
+		}
+		if (max != i)
+		{
+			int temp = t[i];
+			t[i] = t[max];
+			t[max] = temp;
+		}
+	}
 }
