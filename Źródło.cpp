@@ -39,3 +39,15 @@ void sortowanie_ros(int tab[], int n)
 		cout << "1. rosnaco:" << "\b \b" << endl;
 		cout << "2. malejaco: " << "\b \b" << endl;
 		cin >> w;
+		switch (w)
+		{
+		case 1:
+			sortowanie_mal(tab, n);
+			break;
+		case 2:
+			sortowanie_ros(tab, n);
+			break;
+
+		default:
+			break;
+		}
