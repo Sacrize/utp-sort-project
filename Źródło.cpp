@@ -1,4 +1,8 @@
-﻿#include "iostream"
+﻿// ConsoleApplication7.cpp : Defines the entry point for the console application.
+//
+
+
+#include "iostream"
 
 using namespace std;
 
@@ -12,6 +16,7 @@ void sortowanie_mal(int tab[], int n)
 
 }
 
+
 void sortowanie_ros(int tab[], int n)
 {
 	for (int i = 0; i<n; i++)
@@ -19,42 +24,52 @@ void sortowanie_ros(int tab[], int n)
 			if (tab[j - 1]<tab[j])
 
 				swap(tab[j], tab[j - 1]);//zamiana miejscami
-	int main()
+
+}
+
+
+
+int main()
+{
+	int *tab;
+	int n, w;
+	int k;
+	cout << "ile liczb bedziesz chcial posortowac? " << endl;
+	cin >> n;
+	tab = new int[n];
+	for (int i = 0; i < n; i++)
 	{
-		int *tab;
-		int n, w;
-		int k;
-		cout << "ile liczb bedziesz chcial posortowac? " << endl;
-		cin >> n;
-		tab = new int[n];
-		{
-			cout << "Podaj liczbe " << i + 1 << " z " << n << endl;
-			cin >> tab[i];
-		}
+		cout << "Podaj liczbe " << i + 1 << " z " << n << endl;
+		cin >> tab[i];
+	}
+	system("cls");
+	cout << "liczby do posortowania:" << endl;
+	for (int d = 0; d < n; d++)
+		cout << tab[d] << "|";
+	cout << endl;
+	cout << "Jak chcesz sortować:" << endl;
+	cout << "1. rosnaco:" << "\b \b" << endl;
+	cout << "2. malejaco: " << "\b \b" << endl;
+	cin >> w;
+	switch (w)
+	{
+	case 1:
+		sortowanie_mal(tab, n);
+		break;
+	case 2:
+		sortowanie_ros(tab, n);
+		break;
 
-		for (int d = 0; d < n; d++)
-			cout << tab[d] << "|";
-		cout << endl;
-		cout << "Jak chcesz sortować:" << endl;
-		cout << "1. rosnaco:" << "\b \b" << endl;
-		cout << "2. malejaco: " << "\b \b" << endl;
-		cin >> w;
-		switch (w)
-		{
-		case 1:
-			sortowanie_mal(tab, n);
-			break;
-		case 2:
-			sortowanie_ros(tab, n);
-			break;
+	default:
+		break;
+	}
 
-		default:
-			break;
-		}
-		cout << "liczby posortowane: " << endl;
+	cout << "liczby posortowane: " << endl;
 
-		for (int i = 0; i < n; i++)
-			cout << tab[i] << "|";
+	for (int i = 0; i < n; i++)
+		cout << tab[i] << "|";
 
-		cin >> k;
-		return 0;
+	cin >> k;
+	return 0;
+}
+
