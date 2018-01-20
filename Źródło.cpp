@@ -27,3 +27,7 @@ void sortowanie_ros(int tab[], int n)
 		cout << "ile liczb bedziesz chcial posortowac? " << endl;
 		cin >> n;
 		tab = new int[n];
+		{
+			cout << "Podaj liczbe " << i + 1 << " z " << n << endl;
+			cin >> tab[i];
+		}
