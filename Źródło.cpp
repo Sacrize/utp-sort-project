@@ -19,3 +19,4 @@ void sortowanie_ros(int tab[], int n)
 			if (tab[j - 1]<tab[j])
 
 				swap(tab[j], tab[j - 1]);//zamiana miejscami
+	int main()
