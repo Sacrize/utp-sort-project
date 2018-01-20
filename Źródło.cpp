@@ -51,3 +51,10 @@ void sortowanie_ros(int tab[], int n)
 		default:
 			break;
 		}
+		cout << "liczby posortowane: " << endl;
+
+		for (int i = 0; i < n; i++)
+			cout << tab[i] << "|";
+
+		cin >> k;
+		return 0;
