@@ -20,3 +20,7 @@ void sortowanie_ros(int tab[], int n)
 
 				swap(tab[j], tab[j - 1]);//zamiana miejscami
 	int main()
+	{
+		int *tab;
+		int n, w;
+		int k;
