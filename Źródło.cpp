@@ -31,3 +31,11 @@ void sortowanie_ros(int tab[], int n)
 			cout << "Podaj liczbe " << i + 1 << " z " << n << endl;
 			cin >> tab[i];
 		}
+
+		for (int d = 0; d < n; d++)
+			cout << tab[d] << "|";
+		cout << endl;
+		cout << "Jak chcesz sortować:" << endl;
+		cout << "1. rosnaco:" << "\b \b" << endl;
+		cout << "2. malejaco: " << "\b \b" << endl;
+		cin >> w;
