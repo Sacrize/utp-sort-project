@@ -99,8 +99,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main.cpp" /><<<<<<< selection-sort
     <ClCompile Include="selection-sort.cpp" />
+
+    <ClCompile Include="insertion-sort.cpp" />
+
+    <ClCompile Include="quick.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="quick.h" />
+
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
