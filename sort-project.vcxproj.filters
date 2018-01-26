@@ -18,6 +18,11 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+
+    <ClCompile Include="insertion-sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
     <ClCompile Include="quick.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
