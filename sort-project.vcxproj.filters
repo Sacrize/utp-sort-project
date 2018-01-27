@@ -21,5 +21,21 @@
     <ClCompile Include="Źródło.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+
+    <ClCompile Include="insertion-sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
+    <ClCompile Include="quick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="quick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

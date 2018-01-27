@@ -1,9 +1,9 @@
 ### Zadanie
 
 - [x] Utworzyć i dodać treść do README.md.
-- [ ] Aplikacja powinien się składać z minimum 5 plików kodu źródłowego.
-- [ ] Każdy z członków zespołu powinien wykonać minimum 7 commitów.
-- [ ] Każdą funkcjonalność rozwijać w osobnej gałęzi,
+- [x] Aplikacja powinien się składać z minimum 5 plików kodu źródłowego.
+- [x] Każdy z członków zespołu powinien wykonać minimum 7 commitów.
+- [x] Każdą funkcjonalność rozwijać w osobnej gałęzi,
 - [ ] Przeprowadzić minimum 5 pull requestów (każdy członek zespołu minimum 1).
 - [ ] Doprowadzić do minimum 3 konfliktów i rozwiązać je.
 - [ ] Wykonać operację rebase minimum 1 raz.
@@ -11,10 +11,10 @@
 
 ### Podział zadań
 
-- [ ] Ada - Selection sort
+- [x] Ada - Selection sort
 - [x] Kuba - Quick sort
 - [x] Patryk - Insertion sort
-- [ ] Łukasz - Bubble sort
+- [x] Łukasz - Bubble sort
 
 ### Wstępna konfiguracja
 ```
@@ -56,3 +56,11 @@
 ### UWAGA
 Każdy musi zrobić przynajmniej 7 commitów, więc przy pisaniu dobrze robić sobie często przerwy (wykonać to co powyżej).
 Pull requesty i konflikty będziemy robić na końcu.
+
+### PULL REQUEST
+
+1. Wchodzimy w zakładkę pull request na githubie
+2. Klikamy w zielony przycisk "New pull request"
+3. Teraz pod napisem "Compare changes" mamy 2 dropdowny "base:master" <= "compare:master"
+4. Z dropdowna "compare:master" wybieramy nasz branch z sortowaniem
+5. Następnie klikamy w zielony przycisk "Create pull request" x2
