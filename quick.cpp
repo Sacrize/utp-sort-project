@@ -34,11 +34,7 @@ int Quick::partition(int tab[], int p, int r)
 	}
 }
 
-Quick::Quick(int tab[], int n)
+Quick::Quick(int tab[], int n, direction d)
 {
 	this->sort(tab, 0, n - 1);
-}
-
-Quick::~Quick()
-{
 }

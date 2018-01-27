@@ -1,0 +1,297 @@
+commit 73462c40a3eea9bec59b755d74e0be4b41cf82ec
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 22 10:56:52 2018 +0100
+
+    pull request
+
+commit a2b649f0b204255567cd3024bcf3ce1983b77d45
+Merge: 60b15a9 73462c4
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Mon Jan 22 10:54:56 2018 +0100
+
+    Merge pull request #6 from Sacrize/readme
+    
+    pull request
+
+commit c5660c2609fcdcc5630d5e8eb60a2ae1e735c219
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:56:08 2018 +0100
+
+    poprawa błedów
+
+commit 1f238d7b4c27a122b70abfd6cfaa0527c01147b4
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:53:30 2018 +0100
+
+    dodadanie do funkcji głównej wyświetlania posortowanej tablicy
+
+commit e91707a2dbf0a303a2992f11153af86d88e8b211
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:52:34 2018 +0100
+
+    dodadanie do funkcji głównej menu wyboru opcji
+
+commit 78075b43e8ffd8c3d1448ede0f877f1cd35dc772
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:51:53 2018 +0100
+
+    dodadanie do funkcji głównej wyśietlania tablicy jak menu wyboru
+
+commit 1213dd68cc28d7c267384f5c6873b8429b0702f2
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:51:07 2018 +0100
+
+    dodadanie do funkcji głównej uzpelniania tablicy
+
+commit 415311067dbfd67ebe0561c70f2b84c80ad4b3c0
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:50:33 2018 +0100
+
+    dodadanie do funkcji głównej tablicy dynamicznej
+
+commit 30f91dd101b3f07d87a31f0ac987318e7bf01886
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:49:54 2018 +0100
+
+    dodadanie do funkcji głównej zmiennych
+
+commit 7f47c21550a6ffe6a15f62f1f7ae3415c3b56a55
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:49:08 2018 +0100
+
+    dodadanie funkcji głównej
+
+commit b2f61a6d2511777b40909383ab32dca6c55d024e
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:45:44 2018 +0100
+
+    dodadanie sortowanie malejacego i rosnacego
+
+commit 38f45f34334d5e8b27ecde475c6a52c5f2b36107
+Author: kitsune242 <lukasz252a@gmail.com>
+Date:   Sat Jan 20 12:41:46 2018 +0100
+
+    test
+
+commit 9a6e82e064b5f21d15017aa95cdcfd8d7dafd6bc
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 14:37:43 2018 +0100
+
+    Poprawka komentarzy
+
+commit 7bafa2bb610264ae0a276ef67ce7eebfc2530dd9
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 12:26:57 2018 +0100
+
+    Kosmetyka czytelnosci kodu
+
+commit ca0c40d5522ce433fdee683574100a8caa24f2ec
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 12:17:28 2018 +0100
+
+    test
+
+commit 577e1a967d89a80252fdeb0237d8d5b5f9bcca5b
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 11:07:33 2018 +0100
+
+    wybor przez uzyt kolejnosci sort
+
+commit aaee5f0058934c3d51c1d7fc42b8faba4d1d3186
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 09:38:04 2018 +0100
+
+    Podzial na sortowanie min-max i max-min
+
+commit 7a375791574243fcdb6113121ee12c3b3ad73f39
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 08:20:03 2018 +0100
+
+    wstawianie min elem na odpowiednie miejsce
+
+commit 6e6c741e37505de2d7ea6c8bc4389160e37d9cb9
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Fri Jan 19 07:36:41 2018 +0100
+
+    szukanie min. elem.- cpp
+
+commit a55c1924deb610bd51e4b69b66c1ac18ea9b2eff
+Author: aw0lf <adrianna.tycner@yahoo.com>
+Date:   Thu Jan 18 18:25:29 2018 +0100
+
+    zrobilam petle szukajaca najmniejszego elem.
+
+commit 3125f3e3b585f92500e4b4e144ea959c7aebb51d
+Author: Scrize <sacrize@gmail.com>
+Date:   Wed Jan 17 11:28:01 2018 +0100
+
+    checkboxy w podziale zadań oznaczają teraz status implementacji algorytmu
+
+commit 60b15a955f5a613740bebce1805c3c8f194461da
+Merge: dcec82f 3125f3e
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Wed Jan 17 11:26:25 2018 +0100
+
+    Merge pull request #4 from Sacrize/readme
+    
+    checkboxy w podziale zadań oznaczają teraz status implementacji
+
+commit 298bed58e4b41bf487c15cf113f46a5c5ac3e53a
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 21:23:16 2018 +0100
+
+    Dodałem opis pętli
+
+commit 96dcfe0f5f1ad243f7c09b60da8f0ac8fcae3070
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 21:21:55 2018 +0100
+
+    Dodałem opis zmiennych
+
+commit d1d141c0e5a56a0f4e6e0fb4fe0246e6df3d0a18
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 21:19:51 2018 +0100
+
+    Naprawiłem błąd ze złą wartością zwracaną przez funkcje
+
+commit fb0cec792e58853ebd2777a59a669fd3aabee2ed
+Author: Scrize <sacrize@gmail.com>
+Date:   Tue Jan 16 19:47:19 2018 +0100
+
+    lista algorytmow
+
+commit dcec82fd010d27fef5fa2d896295f9a596dd26a2
+Merge: 47a4b73 fb0cec7
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Tue Jan 16 19:45:33 2018 +0100
+
+    Merge pull request #3 from Sacrize/readme
+    
+    lista algorytmow
+
+commit 2f9aad5f85aadf4f191d52c0924b03722e08dbe0
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 17:21:53 2018 +0100
+
+    Dodałem algorytm sortujący
+
+commit 653461b9c7deaaf43a9909013347e9763f98193b
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 17:20:31 2018 +0100
+
+    Dodałem wyjście z funkcji, jeśli jest zbyt mało elementów do sortowania
+
+commit 39cac863ab9e421529915dd1c459ac10d6d64f9c
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 17:18:31 2018 +0100
+
+    zadeklarowałem funkcję insertionSort
+
+commit f7fdcb8c29a425b900fa373a4486f73c670af3b0
+Author: Patryk <patryk.syka@gmail.com>
+Date:   Tue Jan 16 15:56:44 2018 +0100
+
+    założyłem plik insertion-sort.cpp
+
+commit 47a4b73c268f029a461f7e8bf6125fe7137ee2c0
+Merge: 00f895d aa20df0
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Mon Jan 15 15:02:46 2018 +0100
+
+    Merge pull request #2 from Sacrize/readme
+    
+    Readme
+
+commit aa20df04c5edcfffcb1924b2b84f26c9fb5db98d
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 15:00:09 2018 +0100
+
+    lukasz
+
+commit d34e766b68d67ccfe948773bc42f02773f842ebe
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 14:46:05 2018 +0100
+
+    main loop
+
+commit 1ab1208a363c6ab4f8486a3fdd129c50b23f7c49
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 14:38:44 2018 +0100
+
+    test
+
+commit 00f895d5d644101ce174b4f81b49566a5656b1cd
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 14:36:58 2018 +0100
+
+    test
+
+commit faf04e6bf9cb65967e1f389aa39d6ffb114a6ccb
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 14:30:51 2018 +0100
+
+    finish
+
+commit d2a906f42cfc52e9c2977cca38645f1b91dcb08f
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 14:01:54 2018 +0100
+
+    alg list
+
+commit 3f3994a08260eff9b99c45295771ce6ce5aa63e8
+Author: Scrize <sacrize@gmail.com>
+Date:   Mon Jan 15 13:51:06 2018 +0100
+
+    vs import
+
+commit a4d5989de3f81cbec4bf15f6c53c00ead39a3784
+Merge: 7739c1f a4bf178
+Author: Sacrize <sacrize@gmail.com>
+Date:   Mon Jan 15 13:30:27 2018 +0100
+
+    Merge branch 'master' into readme
+
+commit 7739c1f6b5bf6cba43b3b2288ce8883cc080d350
+Author: Sacrize <sacrize@gmail.com>
+Date:   Mon Jan 15 13:05:36 2018 +0100
+
+    fix
+
+commit 8b8b9cb6d332b198094f7b0de5894c216cc75025
+Author: Sacrize <sacrize@gmail.com>
+Date:   Mon Jan 15 12:46:13 2018 +0100
+
+    more
+
+commit e05ee1c25adc278077f65c624d3294bcfa35645b
+Author: Sacrize <sacrize@gmail.com>
+Date:   Mon Jan 15 12:23:55 2018 +0100
+
+    base
+
+commit a4bf178831e17355558d4d79d6833b47c88c37f1
+Merge: 776e1de 5cf46ce
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Mon Jan 15 12:12:42 2018 +0100
+
+    Merge pull request #1 from Sacrize/vs-project
+    
+    hello world
+
+commit 5cf46cec147aa82d2d77db2e9d020889e1a087d5
+Author: Sacrize <sacrize@gmail.com>
+Date:   Mon Jan 15 12:12:38 2018 +0100
+
+    hello world
+
+commit 9a50a2373a802925acf1318283fb0321368ff6c6
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Mon Jan 15 11:59:54 2018 +0100
+
+    Create README.md
+
+commit 776e1de4d9f71f4e7ce5d1bc7a5cda089c524dbb
+Author: Jakub Paprocki <sacrize@gmail.com>
+Date:   Mon Jan 15 11:33:41 2018 +0100
+
+    Initial commit

@@ -99,16 +99,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bubble.cpp" />
+    <ClCompile Include="insert.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="selection-sort.cpp" />
-    <ClCompile Include="Źródło.cpp" />
-    <ClCompile Include="insertion-sort.cpp" />
-
     <ClCompile Include="quick.cpp" />
+    <ClCompile Include="select.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bubble.h" />
+    <ClInclude Include="insert.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="quick.h" />
+    <ClInclude Include="select.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
