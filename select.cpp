@@ -7,7 +7,7 @@ void Select::sortMin(int tab[], int n)
 	elementu
 	*/
 	int min; //najmniejszy element
-	for (int i = 0; i < (n - 1); i++) //pêtla leci po wszystkich elementach tablicy, -1 bo bêd¹ porównywane 2 elem.
+	for (int i = 0; i < n; i++) //pêtla leci po wszystkich elementach tablicy, -1 bo bêd¹ porównywane 2 elem.
 	{
 		min = i;//ustawiam min. elem. na aktualn¹ pozycje
 		for (int j = i + 1; j < n; j++) //i+1-aktualny elem. porównywany z nastêpnym indexem
@@ -20,19 +20,16 @@ void Select::sortMin(int tab[], int n)
 		/*Wstawianie
 		min elem na miejse*/
 
-		if (min != 1) //jesli akt. min. elem. nie jest równy akt. iteracji glownego for
-		{
-			int temp = tab[i]; //zmienna pomoc, ktorej przypisuje indeks akt iteracji
-			tab[i] = tab[min]; //akt. iteracji przypisuje wartosc najmniejszego elem.
-			tab[min] = temp;//najmnniekszy elem. dostaje indeks akt. iteracji
-		}
+		int temp = tab[i]; //zmienna pomoc, ktorej przypisuje indeks akt iteracji
+		tab[i] = tab[min]; //akt. iteracji przypisuje wartosc najmniejszego elem.
+		tab[min] = temp;//najmnniekszy elem. dostaje indeks akt. iteracji
 	}
 }
 
 void Select::sortMax(int tab[], int n)
 {
 	int max;
-	for (int i = 0; i < (n - 1); i++)
+	for (int i = 0; i < n; i++)
 	{
 		max = i; //zamiast min, zmienna max
 		for (int j = i + 1; j < n; j++)
@@ -42,12 +39,10 @@ void Select::sortMax(int tab[], int n)
 				max = j;
 			}
 		}
-		if (max != i)
-		{
-			int temp = tab[i];
-			tab[i] = tab[max];
-			tab[max] = temp;
-		}
+
+		int temp = tab[i];
+		tab[i] = tab[max];
+		tab[max] = temp;
 	}
 }
 
