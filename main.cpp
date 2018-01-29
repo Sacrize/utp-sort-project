@@ -23,7 +23,7 @@ int main()
 	{
 		int n = 0;
 
-		std::cout << "Number of numbers: ";
+		std::cout << "How many numbers: ";
 		std::cin >> n;
 		std::cout << std::endl;
 
@@ -34,7 +34,7 @@ int main()
 
 		for (int i = 0; i < n; i++)
 		{
-			std::cout << "No. " << i + 1 << ": ";
+			std::cout << i + 1 << ": ";
 			std::cin >> tab[i];
 
 			std::cin.ignore(1024, '\n');
@@ -44,7 +44,7 @@ int main()
 
 		while (true)
 		{
-			std::cout << "Select sorting method:" << std::endl;
+			std::cout << "Pick the sorting method: " << std::endl;
 			std::cout << "-----------------------------" << std::endl;
 			std::cout << "1. Selection sort" << std::endl;
 			std::cout << "2. Insertion sort" << std::endl;
